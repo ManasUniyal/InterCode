@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71de9868-fe03-443c-bd4b-2b2f33fbdc40" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="71de9868-fe03-443c-bd4b-2b2f33fbdc40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Main/ChatterClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Main/ChatterClientListen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Request/CreateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Request/GroupJoined.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Request/JoinGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Chat/Request/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/CreateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/GroupJoined.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/JoinGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Constant/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Constant/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Controller/Cnt3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Controller/Cnt3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Controller/Controller1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Controller/Controller1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Controller/Controller2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Controller/Controller2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Controller/Controller3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Controller/Controller3_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Controller/Controller3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Controller/Controller3_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/FXML/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/FXML/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/FXML/sc1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/FXML/sc1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/FXML/sc2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/FXML/sc2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/FXML/sc3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/FXML/sc3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/FXML/scene1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/FXML/scene1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/FXML/scene2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/FXML/scene2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/FXML/scene3_1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/FXML/scene3_1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/FXML/scene3_2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/FXML/scene3_2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Request/ClientToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Request/GroupList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Request/GroupPass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Request/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/Request/WhoIAm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/WhoIAm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/sample/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChatClient/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/intercode/HandleClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/intercode/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/intercode/RequestServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Constant/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Constant/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Main/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Main/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Main/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/HandleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Main/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Main/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Request/ClientToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Request/GroupList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Request/GroupPass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Request/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/ChatServer/Request/WhoIAm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/WhoIAm.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,47 +64,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/intercode/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/intercode/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#196#197#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/MainScreenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -60,80 +71,29 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Client.java" />
-        <option value="$PROJECT_DIR$/src/intercode/Client.java" />
-        <option value="$PROJECT_DIR$/src/intercode/FXMlLoader.java" />
-        <option value="$PROJECT_DIR$/src/FXML/MainScreen.fxml" />
-        <option value="$PROJECT_DIR$/src/intercode/Main.java" />
-        <option value="$PROJECT_DIR$/src/Controller/MainScreenController.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1615" />
-    <option name="height" value="880" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FXML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="intercode" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1QsQCYQc0a3N2RElJHzXzC4VP9h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/intercode" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ChatClient" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\ChatClient" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src" />
+      <recent name="C:\Users\DELL\Desktop\InterCode\Client\src\intercode" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Controller" />
       <recent name="intercode" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DELL\Desktop\InterCode\Client\src\intercode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,88 +132,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568493249509</updated>
+      <workItem from="1568556698090" duration="10320000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/intercode/FXMlLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FXML/MainScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intercode/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/MainScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/intercode/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
