@@ -5,13 +5,14 @@ import java.net.Socket;
 
 public class Client implements Serializable {
 
+	private String name;
 	private Socket socket;
 	private ObjectOutputStream objectOutputStream;
 	private ObjectInputStream objectInputStream;
 
-	public Client(String ip, int port) {
+	public Client(String ip, int port, String name) {
 		try {
-
+			this.name = name;
 			this.socket = new Socket(ip, port);
 			this.objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
 			this.objectInputStream = new ObjectInputStream(socket.getInputStream());

@@ -11,7 +11,7 @@ public class Server {
 	private Socket socket;
 	private HashMap<String,Group> group;
 
-	public void start(){
+	public void initiateSocket(){
 
 		boolean flag;
 		int port = 5555;
@@ -30,7 +30,7 @@ public class Server {
 
 	}
 
-	protected void run() {
+	public void run() {
 
 		while (true) {
 			try {
