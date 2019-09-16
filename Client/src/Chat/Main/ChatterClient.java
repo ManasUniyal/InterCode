@@ -20,8 +20,8 @@ public class ChatterClient {
 		this.name = name;
 		try {
 			socket = new Socket(ip,port);
-			this.objectOutputStream = (ObjectOutputStream) socket.getOutputStream();
-			this.objectInputStream = (ObjectInputStream) socket.getInputStream();
+			this.objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
+			this.objectInputStream = new ObjectInputStream(socket.getInputStream());
 			this.objectOutputStream.writeObject(new WhoIAm(name));
 			this.objectOutputStream.flush();
 		} catch (IOException e) {
@@ -50,8 +50,11 @@ public class ChatterClient {
 	}
 
 	public boolean createGroup(String name){
+		System.out.println("kill");
 		write(new CreateGroup(name));
+		System.out.println("hi");
 		Response res = (Response)read();
+		System.out.println("die");
 		if (res.getStatus() == 0){
 			startRead();
 			this.group = name;
@@ -63,7 +66,9 @@ public class ChatterClient {
 
 	public boolean joinGroup(String name){
 		write(new JoinGroup(name));
+		System.out.println("dieeeeeeeeeeee");
 		Response res = (Response)read();
+		System.out.println("hiiiiiiiiiii");
 		if (res.getStatus() == 0){
 			startRead();
 			this.group = name;
@@ -75,6 +80,8 @@ public class ChatterClient {
 
 	public void sendMessage(Message message){
 		write(message);
+		System.out.println("sent");
+
 	}
 
 	private void startRead(){

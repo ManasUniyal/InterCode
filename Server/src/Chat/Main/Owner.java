@@ -21,7 +21,7 @@ public class Owner {
 		if (group_exist(name)){
 			return false;
 		}
-		groups.put("extra",new Group(name,password));
+		groups.put(name,new Group(name,password));
 		return true;
 	}
 
@@ -30,7 +30,8 @@ public class Owner {
 	}
 
 	public void add_client(String groupName, String clientName, ObjectOutputStream objectOutputStream){
-		if (group_exist(groupName)){
+		if ((group_exist(groupName))){
+			System.out.println("Adding to group "+clientName+groupName);
 			groups.get(groupName).add_client(clientName,objectOutputStream);
 		}
 	}
@@ -64,6 +65,7 @@ public class Owner {
 	}
 
 	public boolean send_message(Object message, String groupName, String clientName){
+		System.out.println(groupName+"exist");
 		if (group_exist(groupName)){
 			return groups.get(groupName).send_message(message,clientName);
 		}
