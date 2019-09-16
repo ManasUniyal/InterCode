@@ -1,9 +1,6 @@
 package intercode;
 
-
-import Controller.MainScreenController;
 import javafx.application.Application;
-import javafx.embed.swing.JFXPanel;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
