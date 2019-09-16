@@ -33,6 +33,7 @@ public class ChatterClientListen implements Runnable{
 		while (true){
 			try {
 				got = objectInputStream.readObject();
+				System.out.println("got");
 			} catch (IOException e) {
 				e.printStackTrace();
 			} catch (ClassNotFoundException e) {
@@ -49,12 +50,14 @@ public class ChatterClientListen implements Runnable{
 		String req =(String) obj.toString();
 		if (req.equals(String.valueOf(Request.MESSAGE))){
 			_message((Message)obj);
+		}if (req.equals(String.valueOf(Request.GROUPJOINED))){
+			System.out.println("Joined");
 		}
 
 	}
 
 	private void _message(Message obj) {
-		System.out.println("Got the message");
+		System.out.println("Got the message" + obj.getContent());
 	}
 
 }

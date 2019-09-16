@@ -25,6 +25,7 @@ public class Group {
 	}
 
 	public void add_client(String name, ObjectOutputStream objectOutputStream){
+		System.out.println("added client"+name);
 		clients.put(name, new Client(name,objectOutputStream));
 	}
 

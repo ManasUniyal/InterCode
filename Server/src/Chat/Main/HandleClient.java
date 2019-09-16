@@ -27,6 +27,8 @@ public class HandleClient implements Runnable {
 			objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
 			WhoIAm ob1 = (WhoIAm) objectInputStream.readObject();
 			Main.GAMER.add_client("extra", ob1.getName(),objectOutputStream);
+			this.name = ob1.getName();
+			System.out.println(this.name);
 			System.out.println("Client Got and name set");
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -69,16 +71,28 @@ public class HandleClient implements Runnable {
 	private void process(Object obj){
 
 		String req =(String) obj.toString();
+		System.out.println("@@GOT");
+
 		if (req.equals(String.valueOf(Request.MESSAGE))){
+			System.out.println("Got msg");
+
 			_message((Message)obj);
 		}else if (req.equals(String.valueOf(Request.CREATEGROUP))){
 
 				//      Do error handelling latter
-
-				Main.GAMER.add_group(((CreateGroup)(obj)).getName(),"");
+			System.out.println("Creating Group");
 				this.group = ((CreateGroup)(obj)).getName();
+			System.out.println(Main.GAMER.add_group(((CreateGroup)(obj)).getName(),""));
+			System.out.println("Step1");
+			this.group = ((CreateGroup)(obj)).getName();
+			System.out.println("Step2");
 				Main.GAMER.remove_client("extra",this.name);
-				Main.GAMER.add_client(((CreateGroup)(obj)).getName(),this.name,this.objectOutputStream);
+			System.out.println("Step3");
+			Main.GAMER.add_client(((CreateGroup)(obj)).getName(),this.name,this.objectOutputStream);
+			System.out.println("Step4");
+			System.out.println(this.group+"@@"+this.name);
+//			new Response(0,""),this.group,this.name
+				Main.GAMER.send_message(new Response(0,""),this.group,this.name);
 
 		}else if (req.equals(String.valueOf(Request.JOINGROUP))){
 
@@ -87,8 +101,10 @@ public class HandleClient implements Runnable {
 				this.group = ((JoinGroup)(obj)).getName();
 				Main.GAMER.add_client(((JoinGroup)(obj)).getName(),this.name,this.objectOutputStream);
 				Main.GAMER.remove_client("extra",this.name);
-				Main.GAMER.send_message(new GroupJoined("hi"),this.group);
 
+				Main.GAMER.send_message(new Response(0,""),this.group,this.name);
+
+				Main.GAMER.send_message(new GroupJoined("hi"),this.group);
 
 		}
 

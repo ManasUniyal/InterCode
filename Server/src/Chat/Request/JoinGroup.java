@@ -2,7 +2,9 @@ package Chat.Request;
 
 import Chat.Constant.Request;
 
-public class JoinGroup {
+import java.io.Serializable;
+
+public class JoinGroup implements Serializable {
 
 	private String name;
 

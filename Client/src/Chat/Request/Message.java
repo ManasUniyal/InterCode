@@ -1,5 +1,7 @@
 package Chat.Request;
 
+import Chat.Constant.Request;
+
 import java.io.Serializable;
 
 public class Message implements Serializable {
@@ -36,5 +38,10 @@ public class Message implements Serializable {
 
 	public void setContent(String content) {
 		this.content = content;
+	}
+
+	@Override
+	public String toString() {
+		return String.valueOf(Request.MESSAGE);
 	}
 }
