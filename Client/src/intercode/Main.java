@@ -1,6 +1,5 @@
 package intercode;
 
-
 import Chat.Main.ChatterClient;
 import Editor._Editor;
 import javafx.application.Application;
