@@ -103,13 +103,6 @@ public class _Editor {
 				textArea.setTabSize(2);
 				textArea.setLineWrap(true);
 
-				textArea.addKeyListener(new KeyAdapter() {
-					public void keyPressed(KeyEvent ke) {
-						edit = true;
-						languageHighlighter.highLight(textArea, kw.getCppKeywords());
-						languageHighlighter.highLight(textArea, kw.getJavaKeywords());
-					}
-				});
 
 				scrollPane = new JScrollPane(textArea);
 				textArea.setWrapStyleWord(true);

@@ -1,21 +1,15 @@
 package Editor;
 
-import intercode.Main;
 import javafx.embed.swing.SwingNode;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.input.Clipboard;
-import javafx.scene.input.KeyCode;
-import javafx.scene.input.KeyCodeCombination;
-import javafx.scene.input.KeyCombination;
 
 import javax.swing.*;
-import javax.swing.text.DefaultEditorKit;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Editor {
@@ -23,28 +17,18 @@ public class Editor {
 	@FXML
 	private SwingNode swingContainer;
 
-	@FXML
-	private Button cut;
-
 	String[] fonts;
-
-//	private Clipboard systemClipboard =
-
 
 	private SupportedKeywords kw = new SupportedKeywords();
 	private HighlightText languageHighlighter = new HighlightText(Color.GRAY);
 	AutoComplete autocomplete;
-	private boolean hasListener = true;
-	private boolean edit = false;
 
 	/*      ShortCuts       */
 
-	public static final KeyCombination clearShortcut = new KeyCodeCombination(KeyCode.D, KeyCombination.CONTROL_DOWN);
-
+//	public static final KeyCombination clearShortcut = new KeyCodeCombination(KeyCode.D, KeyCombination.CONTROL_DOWN);
 
 
 	private JTextArea textArea ;
-
 	public JTextArea getEditor(){
 		return this.textArea;
 	}
@@ -56,30 +40,41 @@ public class Editor {
 		textArea.setFont(new Font("Century Gothic", Font.PLAIN, 12));
 		textArea.setTabSize(2);
 		textArea.setLineWrap(true);
-//		textArea.addKeyListener(new KeyAdapter() {
-//			public void keyPressed(KeyEvent ke) {
-//				edit = true;
-//				languageHighlighter.highLight(textArea, kw.getCppKeywords());
-//				languageHighlighter.highLight(textArea, kw.getJavaKeywords());
-//			}
-//		});
-		JScrollPane scrollPane = new JScrollPane(textArea);
-		textArea.setWrapStyleWord(true);
-		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
 
-		swingContainer.setContent(scrollPane);
-		System.out.println("hi");
-		System.out.println(swingContainer.getContent());
 
-//		Main.PRIMARYSTAGE.setScene(this.ge);
-//		Main.PRIMARYSTAGE.show();
 
+
+		/*      Setting constants       */
 
 		fonts = GraphicsEnvironment.getLocalGraphicsEnvironment().getAvailableFontFamilyNames();
 
 
+		/*      Text Area actions       */
+
+			/*      Text Highlight Feature      */
+
+		textArea.addKeyListener(new KeyAdapter() {
+			public void keyPressed(KeyEvent ke) {
+				languageHighlighter.highLight(textArea, kw.getKeywords());
+			}
+		});
+
+			/*          Auto Complete       */
+
+		autocomplete = new AutoComplete(textArea, new ArrayList( Arrays.asList( kw.getKeywords() ) ));
+
+			/*              Auto Complete       */
+
+		textArea.getDocument().addDocumentListener(autocomplete);
 
 
+
+		/*      Putting text area on scroll on Anchor pane      */
+
+		JScrollPane scrollPane = new JScrollPane(textArea);
+		textArea.setWrapStyleWord(true);
+		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+		swingContainer.setContent(scrollPane);
 
 	}
 

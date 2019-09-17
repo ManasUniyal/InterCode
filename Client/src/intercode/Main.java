@@ -1,6 +1,7 @@
 package intercode;
 
 import Chat.Main.ChatterClient;
+import Editor.Trie;
 import Editor._Editor;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -34,6 +35,21 @@ public class Main extends Application {
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
+
+//        Trie trie = new Trie();
+//
+//        trie.addWord("abc");
+//        trie.addWord("abcd");
+//        trie.addWord("abcde");
+//        trie.addWord("abs");
+//        trie.addWord("adde");
+//        trie.addWord("abfde");
+//        trie.addWord("abfdeg");
+//        trie.addWord("abfdegh");
+//
+//        for (String X: trie.wordsByPrefix("ab")) {
+//            System.out.println(X);
+//        }
 
     }
 }

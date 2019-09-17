@@ -1,5 +1,6 @@
 package Editor;
 
+
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
@@ -10,77 +11,53 @@ import java.awt.event.KeyListener;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/**
- * <h1>Auto complete functionality multiple programming languages, including brackets and
- * parentheses</h1>
- *
- * <p>
- * An ArrayList is created for the keywords and the brackets.
- * Logic for setting the content of the ArrayList is
- * found in UI.java. If the word currently being typed
- * matches a word in the list, a Runnable inner class is
- * implemented to handle the word completion.
- *
- * Two other inner classes are also used. The second one handles when the enter
- * key is pressed in response to an auto complete suggestion. The third one
- * performs additional logic on brackets.
- * </p>
- *
- *
- * @author Patrick Slagle
- * @since 2016-12-03
- */
-public class AutoComplete
-        implements DocumentListener {
+public class AutoComplete implements DocumentListener {
 
     private ArrayList<String> brackets = new ArrayList<>();
     private ArrayList<String> bracketCompletions = new ArrayList<>();
-
     private ArrayList<String> words = new ArrayList<>();
 
     SupportedKeywords kw;
 
-    //Keep track of when code completion
-    //has been activated
     private enum Mode {
         INSERT, COMPLETION
     };
 
-    private final _Editor ui;
     private Mode mode = Mode.INSERT;
-    private final JTextArea textArea;
-    private static final String COMMIT_ACTION = "commit";
+    private JTextArea textArea;
     private boolean isKeyword;
     private int pos;
     private String content;
+    private Trie trie;
+    private int TAB=0;
 
-    public AutoComplete(_Editor ui, ArrayList<String> al) {
-        //Set the keywords
+    public AutoComplete(JTextArea textArea , ArrayList<String> al) {
+
         words = al;
         kw = new SupportedKeywords();
         brackets = kw.getbrackets();
         bracketCompletions = kw.getbracketCompletions();
 
-        //Access the editor
-        this.ui = ui;
-        textArea = ui.getEditor();
+        this.textArea = textArea;
 
-        //Set the handler for the enter key
         InputMap im = textArea.getInputMap();
         ActionMap am = textArea.getActionMap();
-        im.put(KeyStroke.getKeyStroke("ENTER "), COMMIT_ACTION);
-        am.put(COMMIT_ACTION, new CommitAction());
+        im.put(KeyStroke.getKeyStroke("ENTER"), "Action");
+        am.put("Action", new CommitAction());
 
-        Collections.sort(words);
+        trieSetUp();
+
     }
 
-    /**
-     * A character has been typed into the document.
-     * This method performs the primary
-     * check to find a keyword completion.
-     *
-     * @param e
-     */
+    private void trieSetUp() {
+        trie = new Trie();
+
+        for (String X: words) {
+            trie.addWord(X);
+        }
+
+    }
+
     @Override
     public void insertUpdate(DocumentEvent e) {
         pos = e.getOffset();
@@ -96,10 +73,8 @@ public class AutoComplete
             return;
         }
 
-        //Before checking for a keyword
         checkForBracket();
 
-        //Get the beginning of the word being typed
         int start;
         for (start = pos; start >= 0; start--) {
             if (!Character.isLetter(content.charAt(start))) {
@@ -107,22 +82,29 @@ public class AutoComplete
             }
         }
 
-        //Auto complete will start
-        //after two characters are typed
         if (pos - start < 2) {
             return;
         }
 
-        //Search for a match on the word being typed
-        //in the keywords ArrayList
         String prefix = content.substring(start + 1);
         int n = Collections.binarySearch(words, prefix);
 
-        if (n < 0 && -n < words.size()) {
-            String match = words.get(-n - 1);
+        String[] got = trie.wordsByPrefix(prefix);
+//        System.out.println(got.length);
 
+        if (got == null){
+            return;
+        }
+
+        if (got.length > 0) {
+            String match = got[0];
+            if (match.equals(String.valueOf(prefix))){
+                return;
+            }
+            System.out.println(match);
             if (match.startsWith(prefix)) {
                 String completion = match.substring(pos - start);
+                System.out.println(pos-start);
                 isKeyword = true;
                 SwingUtilities.invokeLater(
                         new CompletionTask(completion, pos + 1));
@@ -132,11 +114,7 @@ public class AutoComplete
         }
     }
 
-    /**
-     * Performs a check to see if the last
-     * key typed was one of the supported
-     * bracket characters
-     */
+
     private void checkForBracket() {
         //String of the last typed character
         char c = content.charAt(pos);
@@ -145,37 +123,26 @@ public class AutoComplete
         for (int i = 0; i < brackets.size(); i++) {
             if (brackets.get(i).equals(s)) {
                 isKeyword = false;
+                if (s.charAt(0) == '{') {
+                    TAB++;
+                }else if (s.charAt(0) =='}'){
+                    TAB--;
+                }
                 SwingUtilities.invokeLater(
                         new CompletionTask(bracketCompletions.get(i), pos + 1));
             }
         }
     }
 
-    /**
-     * So that future classes can view the keyword list in the future.
-     *
-     * @return the keywords
-     */
     private ArrayList<String> getKeywords() {
         return words;
     }
 
-    /**
-     * So that these keywords can be modified or added to in the future.
-     *
-     * @param keyword the keyword to set
-     */
     private void setKeywords(String keyword) {
         words.add(keyword);
     }
 
-    /**
-     * Handles the auto complete suggestion
-     * generated when the user is typing a
-     * word that matches a keyword.
-     */
-    private class CompletionTask
-            implements Runnable {
+    private class CompletionTask implements Runnable {
 
         private final String completion;
         private final int position;
@@ -198,13 +165,7 @@ public class AutoComplete
         }
     }
 
-    /**
-     * Enter key is pressed in response to an
-     * auto complete suggestion. Respond
-     * appropriately.
-     */
-    private class CommitAction
-            extends AbstractAction {
+    private class CommitAction extends AbstractAction {
 
         @Override
         public void actionPerformed(ActionEvent e) {
@@ -220,15 +181,23 @@ public class AutoComplete
             } else {
                 mode = Mode.INSERT;
                 textArea.replaceSelection("\n");
+                int x=0;
+                String str = textArea.getText();
+                for(int i=0;i<(int)textArea.getCaretPosition();i++){
+                    if(str.charAt(i) == '{'){
+                        x++;
+                    }if(str.charAt(i) == '}'){
+                        x--;
+                    }
+                }
+                System.out.println(x);
+                for (int i=0;i<x;i++)
+                textArea.insert("            ",textArea.getCaretPosition());
             }
         }
     }
 
-    /**
-     * Additional logic for bracket auto complete
-     */
-    private class HandleBracketEvent
-            implements KeyListener {
+    private class HandleBracketEvent implements KeyListener {
 
         @Override
         public void keyTyped(KeyEvent e) {
