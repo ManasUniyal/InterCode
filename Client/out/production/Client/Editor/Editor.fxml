@@ -8,13 +8,14 @@
    <children>
       <Button mnemonicParsing="false" onAction="#clear" text="clear" />
       <Button layoutX="208.0" mnemonicParsing="false" onAction="#changeStyle" text="changeStyle" />
-      <Button fx:id="bold" layoutX="297.0" mnemonicParsing="false" text="bold" />
+      <Button layoutX="297.0" mnemonicParsing="false" onAction="#bold" text="bold" />
       <Button layoutX="120.0" layoutY="2.0" mnemonicParsing="false" onAction="#increaseSIze" text="increaseSize" />
       <Button layoutX="42.0" mnemonicParsing="false" onAction="#findReplace" text="findReplace" />
       <Button layoutX="350.0" mnemonicParsing="false" onAction="#itallic" text="Itallic" />
       <AnchorPane fx:id="textAnchorPane" layoutX="28.0" layoutY="46.0" prefHeight="427.0" prefWidth="558.0">
          <children>
-            <SwingNode fx:id="swingContainer"/>
+            <SwingNode fx:id="swingContainer" />
          </children></AnchorPane>
+      <Button fx:id="cut" layoutX="407.0" layoutY="2.0" mnemonicParsing="false" text="cut" />
    </children>
 </AnchorPane>
