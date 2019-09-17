@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD:Client/.idea/workspace.xml
     <list default="true" id="a18f0c35-b9fd-4c05-84e2-580b266d554b" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/Controller/Candidate.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Controller/Login.java" afterDir="false" />
@@ -35,6 +36,43 @@
       <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/Timer_.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/timer.fxml" afterDir="false" />
+||||||| merged common ancestors:Client/.idea/workspace.xml
+    <list default="true" id="71de9868-fe03-443c-bd4b-2b2f33fbdc40" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/../Server/src/Compliers/CPlusPlusCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Compliers/JavaCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Compliers/PythonCompiler.java" afterDir="false" />
+||||||| merged common ancestors
+=======
+      <change afterPath="$PROJECT_DIR$/src/Controller/ChatArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Controller2.java" afterDir="false" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+=======
+    <list default="true" id="71de9868-fe03-443c-bd4b-2b2f33fbdc40" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/Editor/AutoComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor/Editor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor/FEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor/Find.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor/HighlightText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor/SupportedKeywords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Editor/_Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client/intercode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/intercode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intercode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/.idea/workspace.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/../Server/src/Compliers/CPlusPlusCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Compliers/JavaCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/Compliers/PythonCompiler.java" afterDir="false" />
+||||||| merged common ancestors
+=======
+      <change afterPath="$PROJECT_DIR$/src/Controller/ChatArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Controller2.java" afterDir="false" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad:workspace.xml
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Client/Chat/Main/ChatterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Chat/Main/ChatterClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Client/Chat/Main/ChatterClientListen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client/Chat/Main/ChatterClientListen.class" afterDir="false" />
@@ -67,6 +105,35 @@
       <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/intercode/RequestServer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/intercode/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/intercode/HandleClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/intercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/intercode/Main.java" afterDir="false" />
+<<<<<<< HEAD:Client/.idea/workspace.xml
+||||||| merged common ancestors:Client/.idea/workspace.xml
+=======
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/HandleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/HandleClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/Owner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Request/GroupJoined.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Request/GroupJoined.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Request/JoinGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Request/JoinGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Main/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Main/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/HandleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Main/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Request/GroupJoined.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/GroupJoined.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Request/JoinGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/JoinGroup.java" afterDir="false" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+=======
+=======
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/HandleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/HandleClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Main/Owner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Request/GroupJoined.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Request/GroupJoined.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Request/JoinGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/out/production/Server/Chat/Request/JoinGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Main/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Main/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/HandleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Main/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Main/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Request/GroupJoined.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/GroupJoined.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/Chat/Request/JoinGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/Chat/Request/JoinGroup.java" afterDir="false" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+>>>>>>> 1d5a4f069cb35c32b2eafb2985c8f07121e37826
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad:workspace.xml
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -353,12 +420,68 @@
       </pane>
     </panes>
   </component>
+<<<<<<< HEAD:Client/.idea/workspace.xml
+||||||| merged common ancestors:Client/.idea/workspace.xml
+=======
+  <component name="ProjectId" id="1QuwyLFdhQU8dRfHLPKFkLFhEVf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+=======
+=======
+  <component name="ProjectId" id="1QuwyLFdhQU8dRfHLPKFkLFhEVf" />
+<<<<<<< HEAD
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+>>>>>>> 1d5a4f069cb35c32b2eafb2985c8f07121e37826
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad:workspace.xml
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD:Client/.idea/workspace.xml
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Icons" />
+||||||| merged common ancestors:Client/.idea/workspace.xml
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/untitled7" />
+||||||| merged common ancestors
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/intercode" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chat" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+=======
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/untitled7" />
+||||||| merged common ancestors
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/intercode" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Editor" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Chat" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+>>>>>>> 1d5a4f069cb35c32b2eafb2985c8f07121e37826
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad:workspace.xml
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Controller" />
+      <recent name="intercode" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD:Client/.idea/workspace.xml
       <recent name="C:\Users\DELL\Desktop\InterCode\Client\src\Icons" />
       <recent name="C:\Users\DELL\Desktop\InterCode\Client\src" />
       <recent name="C:\Users\DELL\Desktop\InterCode\Client\src\Utilities" />
@@ -369,6 +492,23 @@
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Request" />
+||||||| merged common ancestors:Client/.idea/workspace.xml
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\Chat" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\Chat\Request" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\Controller" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\FXML" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Controller" />
+      <recent name="intercode" />
+=======
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\Editor" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\Chat" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\Chat\Request" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\Controller" />
+      <recent name="C:\Users\hp\Desktop\Softblitz\InterCode\Client\src\FXML" />
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad:workspace.xml
     </key>
   </component>
   <component name="RunDashboard">
@@ -383,7 +523,27 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD:Client/.idea/workspace.xml
   <component name="RunManager">
+||||||| merged common ancestors:Client/.idea/workspace.xml
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intercode.Main" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+=======
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intercode.Main" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad:workspace.xml
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intercode.Main" />
       <module name="Client" />
@@ -401,7 +561,19 @@
       <created>1568660997297</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD:Client/.idea/workspace.xml
       <updated>1568660997297</updated>
+||||||| merged common ancestors:Client/.idea/workspace.xml
+      <updated>1568493249509</updated>
+      <workItem from="1568634044643" duration="4583000" />
+      <workItem from="1568641193764" duration="4272000" />
+=======
+      <updated>1568493249509</updated>
+      <workItem from="1568634044643" duration="4583000" />
+      <workItem from="1568641193764" duration="6710000" />
+      <workItem from="1568664489198" duration="12248000" />
+      <workItem from="1568699415264" duration="222000" />
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad:workspace.xml
     </task>
     <servers />
   </component>
@@ -742,6 +914,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD:Client/.idea/workspace.xml
     <entry file="file://$PROJECT_DIR$/src/FXML/SignUp.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -757,5 +930,191 @@
         </state>
       </provider>
     </entry>
+||||||| merged common ancestors:Client/.idea/workspace.xml
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+=======
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad:workspace.xml
   </component>
 </project>

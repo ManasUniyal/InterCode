@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="064bb0ee-33e1-4692-a36a-848f804bbc6c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Client/src/Controller/Candidate.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client/src/Controller/Login.java" afterDir="false" />
@@ -35,6 +36,43 @@
       <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/Timer_.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/timer.fxml" afterDir="false" />
+||||||| merged common ancestors
+    <list default="true" id="b6772201-22a1-43dd-aeac-833c0e20bb77" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/Compliers/CPlusPlusCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compliers/JavaCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compliers/PythonCompiler.java" afterDir="false" />
+||||||| merged common ancestors
+=======
+      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/ChatArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/Controller2.java" afterDir="false" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+=======
+    <list default="true" id="b6772201-22a1-43dd-aeac-833c0e20bb77" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/../Client/src/Editor/AutoComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Editor/Editor.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Editor/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Editor/FEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Editor/Find.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Editor/HighlightText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Editor/SupportedKeywords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Editor/_Editor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/intercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/intercode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/src/Compliers/CPlusPlusCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compliers/JavaCompiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Compliers/PythonCompiler.java" afterDir="false" />
+||||||| merged common ancestors
+=======
+      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/ChatArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/Controller2.java" afterDir="false" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClientListen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClientListen.class" afterDir="false" />
@@ -67,6 +105,37 @@
       <change beforePath="$PROJECT_DIR$/out/production/Server/intercode/RequestServer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/intercode/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intercode/HandleClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/intercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intercode/Main.java" afterDir="false" />
+<<<<<<< HEAD
+||||||| merged common ancestors
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/HandleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/HandleClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/Owner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/GroupJoined.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Request/GroupJoined.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/JoinGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Request/JoinGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Request/GroupJoined.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/GroupJoined.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Request/JoinGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/JoinGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Request/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/Message.java" afterDir="false" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+=======
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/HandleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/HandleClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/Owner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/GroupJoined.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Request/GroupJoined.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/JoinGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Request/JoinGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Request/GroupJoined.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/GroupJoined.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Request/JoinGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/JoinGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Request/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/Message.java" afterDir="false" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+>>>>>>> 1d5a4f069cb35c32b2eafb2985c8f07121e37826
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -296,11 +365,40 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/RequestClasses" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+||||||| merged common ancestors
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+||||||| merged common ancestors
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+=======
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+||||||| merged common ancestors
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Sakshatkar/Client" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Chat.Request" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
+>>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -311,6 +409,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\DELL\Desktop\InterCode\Server\src\RequestClasses" />
       <recent name="C:\Users\DELL\Desktop\InterCode\Server\src" />
+>>>>>>> 1d5a4f069cb35c32b2eafb2985c8f07121e37826
     </key>
   </component>
   <component name="RunDashboard">
@@ -343,7 +442,19 @@
       <created>1568661040207</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1568661040207</updated>
+||||||| merged common ancestors
+      <updated>1568493232258</updated>
+      <workItem from="1568634040971" duration="2024000" />
+      <workItem from="1568641189886" duration="4294000" />
+=======
+      <updated>1568493232258</updated>
+      <workItem from="1568634040971" duration="2024000" />
+      <workItem from="1568641189886" duration="5940000" />
+      <workItem from="1568664480240" duration="713000" />
+      <workItem from="1568699403821" duration="233000" />
+>>>>>>> db0c5ce0ce380943e7f26dbe9140d152851f08ad
     </task>
     <servers />
   </component>

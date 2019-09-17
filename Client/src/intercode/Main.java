@@ -1,8 +1,10 @@
 package intercode;
 
 import Chat.Main.ChatterClient;
-import Controller.MainScreenController;
 import DataClasses.ClientDetails;
+import Controller.MainScreenController;
+import Editor.Trie;
+import Editor._Editor;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -26,13 +28,35 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+<<<<<<< HEAD
 
         GAMER = new Client("localhost", 6000,"Welcome");
         USER = new ClientDetails();
+//        GAMER = new Client("localhost", 6000,"Welcome");
         PRIMARYSTAGE = primaryStage;
-        Parent root = FXMLLoader.load(getClass().getResource("../FXML/SignUp.fxml"));
+
+//        new _Editor().start();
+//
+//
+        Parent root = FXMLLoader.load(getClass().getResource("../Editor/Editor.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
+
+//        Trie trie = new Trie();
+//
+//        trie.addWord("abc");
+//        trie.addWord("abcd");
+//        trie.addWord("abcde");
+//        trie.addWord("abs");
+//        trie.addWord("adde");
+//        trie.addWord("abfde");
+//        trie.addWord("abfdeg");
+//        trie.addWord("abfdegh");
+//
+//        for (String X: trie.wordsByPrefix("ab")) {
+//            System.out.println(X);
+//        }
+
     }
 }
