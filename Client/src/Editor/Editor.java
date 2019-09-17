@@ -3,11 +3,17 @@ package Editor;
 import javafx.embed.swing.SwingNode;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -28,13 +34,14 @@ public class Editor {
 //	public static final KeyCombination clearShortcut = new KeyCodeCombination(KeyCode.D, KeyCombination.CONTROL_DOWN);
 
 
-	private JTextArea textArea ;
-	public JTextArea getEditor(){
+	private JTextArea textArea;
+
+	public JTextArea getEditor() {
 		return this.textArea;
 	}
 
 
-	public void initialize(){
+	public void initialize() {
 
 		textArea = new JTextArea("", 100, 200);
 		textArea.setFont(new Font("Century Gothic", Font.PLAIN, 12));
@@ -51,7 +58,7 @@ public class Editor {
 
 		/*      Text Area actions       */
 
-			/*      Text Highlight Feature      */
+		/*      Text Highlight Feature      */
 
 		textArea.addKeyListener(new KeyAdapter() {
 			public void keyPressed(KeyEvent ke) {
@@ -59,11 +66,11 @@ public class Editor {
 			}
 		});
 
-			/*          Auto Complete       */
+		/*          Auto Complete       */
 
-		autocomplete = new AutoComplete(textArea, new ArrayList( Arrays.asList( kw.getKeywords() ) ));
+		autocomplete = new AutoComplete(textArea, new ArrayList(Arrays.asList(kw.getKeywords())));
 
-			/*              Auto Complete       */
+		/*              Auto Complete       */
 
 		textArea.getDocument().addDocumentListener(autocomplete);
 
@@ -92,7 +99,27 @@ public class Editor {
 	}
 
 	public void findReplace(ActionEvent actionEvent) {
+		Stage window = new Stage();
+
+		//Block events to other windows
+
+		window.initModality(Modality.APPLICATION_MODAL);
+		window.setTitle("Find Replace");
+
+		FXMLLoader fxmlLoader = new FXMLLoader();
+		fxmlLoader.setLocation(getClass().getResource("../Editor/find.fxml"));
+		try {
+			Parent parent = fxmlLoader.load();
+			_Find _find = fxmlLoader.getController();
+			Scene scene = new Scene(parent);
+			window.setScene(scene);
+			window.show();
+			_find.setTxt(textArea);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
+
 
 	public void itallic(ActionEvent actionEvent) {
 		int sizeOfFont = textArea.getFont().getSize();
