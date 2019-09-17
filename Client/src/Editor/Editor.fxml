@@ -17,5 +17,6 @@
             <SwingNode fx:id="swingContainer" />
          </children></AnchorPane>
       <Button layoutX="407.0" layoutY="2.0" mnemonicParsing="false" onAction="#decreaseSize" text="decreaseSize" />
+      <Button layoutX="498.0" layoutY="2.0" mnemonicParsing="false" onAction="#find" text="Find" />
    </children>
 </AnchorPane>

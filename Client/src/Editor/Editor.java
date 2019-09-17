@@ -34,7 +34,7 @@ public class Editor {
 	private SupportedKeywords kw = new SupportedKeywords();
 	private HighlightText languageHighlighter = new HighlightText(Color.GRAY);
 	AutoComplete autocomplete;
-	private boolean hasListener = false;
+	private boolean hasListener = true;
 	private boolean edit = false;
 
 	/*      ShortCuts       */
@@ -156,5 +156,66 @@ public class Editor {
 		textArea.setFont(font1);
 
 	}
+
+	public void find(ActionEvent actionEvent){
+
+		new Find(textArea);
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
+
+        ArrayList<String> arrayList;
+        String[] list = kw.getSupportedLanguages();
+
+        for (int i = 0; i < list.length; i++) {
+            if (file.getName().endsWith(list[i])) {
+                switch (i) {
+                    case 0:
+                        String[] jk = kw.getJavaKeywords();
+                        arrayList = kw.setKeywords(jk);
+                        autocomplete = new AutoComplete(this, arrayList);
+                        textArea.getDocument().addDocumentListener(autocomplete);
+                        hasListener = true;
+                        break;
+                    case 1:
+                        String[] ck = kw.getCppKeywords();
+                        arrayList = kw.setKeywords(ck);
+                        autocomplete = new AutoComplete(this, arrayList);
+                        textArea.getDocument().addDocumentListener(autocomplete);
+                        hasListener = true;
+                        break;
+                }
+            }
+        }
+
+
+	 */
+
+
+
+
+
+
+
+
 
 }
