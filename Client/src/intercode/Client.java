@@ -16,7 +16,7 @@ public class Client implements Serializable {
 			this.socket = new Socket(ip, port);
 			this.objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
 			this.objectInputStream = new ObjectInputStream(socket.getInputStream());
-			System.out.println("Client created.");
+			System.out.println("ClientDetails created.");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

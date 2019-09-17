@@ -29,7 +29,7 @@ public class ChatterClient {
 		}
 	}
 
-	private void write(Object obj){
+	public void write(Object obj){
 		try {
 			objectOutputStream.writeObject(obj);
 			objectOutputStream.flush();

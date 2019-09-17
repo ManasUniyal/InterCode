@@ -50,7 +50,7 @@ public class ChatterClientListen implements Runnable{
 		String req =(String) obj.toString();
 		if (req.equals(String.valueOf(Request.MESSAGE))){
 			_message((Message)obj);
-		}if (req.equals(String.valueOf(Request.GROUPJOINED))){
+		}else if (req.equals(String.valueOf(Request.GROUPJOINED))){
 			System.out.println("Joined");
 		}
 

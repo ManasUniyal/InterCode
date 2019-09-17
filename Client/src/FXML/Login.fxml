@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="712.0" prefWidth="700.0" style="-fx-background-color: #5FFA7F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Login">
+   <children>
+      <Label id="LoginLabel" fx:id="loginLabel" layoutX="198.0" prefHeight="45.0" prefWidth="313.0" style="-fx-background-color: #FA925F;" text="                Login Form">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label id="username" fx:id="username" alignment="CENTER" layoutX="98.0" layoutY="238.0" prefHeight="78.0" prefWidth="194.0" style="-fx-background-color: #C70039;" text="User ID or Email :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="password" fx:id="password" layoutX="98.0" layoutY="353.0" prefHeight="78.0" prefWidth="194.0" style="-fx-background-color: #C70039;" text="      PassWord :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField id="usernameField" fx:id="loginField" layoutX="342.0" layoutY="244.0" prefHeight="57.0" prefWidth="334.0" promptText="username" />
+      <Button id="loginButton" fx:id="loginButton" layoutX="208.0" layoutY="512.0" mnemonicParsing="false" onAction="#loginButton" prefHeight="65.0" prefWidth="313.0" style="-fx-background-color: #9B0973;" text="Login">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordField" layoutX="342.0" layoutY="361.0" prefHeight="57.0" prefWidth="334.0" promptText="password" />
+      <Label fx:id="interviewerLabel" layoutY="96.0" onMouseClicked="#selectMode" prefHeight="65.0" prefWidth="350.0" style="-fx-background-color: #2459F9;" text="         Interviewer">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label fx:id="candidateLabel" layoutX="350.0" layoutY="96.0" onMouseClicked="#selectMode" prefHeight="65.0" prefWidth="350.0" style="-fx-background-color: #2459F9;" text="          Candidate" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

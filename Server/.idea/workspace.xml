@@ -1,82 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6772201-22a1-43dd-aeac-833c0e20bb77" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/Compliers/CPlusPlusCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Compliers/JavaCompiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Compliers/PythonCompiler.java" afterDir="false" />
-||||||| merged common ancestors
-=======
-      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/ChatArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/Controller2.java" afterDir="false" />
->>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+    <list default="true" id="064bb0ee-33e1-4692-a36a-848f804bbc6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Controller/SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/DataClasses/ClientDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Icons/newUserIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/RequestClasses/CheckUserID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/RequestClasses/InterviewHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/RequestClasses/LoginVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/RequestClasses/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/RequestClasses/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/RequestClasses/UploadResume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Utilities/FXMLInitiator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Windows/AlertBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Windows/ConfirmBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Windows/FullScreenCaptureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Windows/ListBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/Windows/TestingResizing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Constant/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataClasses/ClientDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RequestClasses/CheckUserID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RequestClasses/InterviewHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RequestClasses/LoginVerification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RequestClasses/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RequestClasses/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RequestClasses/UploadResume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utilities/SaveFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utilities/SqlQueryExecuter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/GetHint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/Initiator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/Timer_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Timer/src/intercode/timer.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-||||||| merged common ancestors
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Controller/Cnt3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Controller/Controller1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Controller/Controller2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Controller/Controller3_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Controller/Controller3_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/FXML/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/FXML/sc1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/FXML/sc2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/FXML/sc3.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/FXML/scene1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/FXML/scene2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/FXML/scene3_1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/FXML/scene3_2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/intercode/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/intercode/Client.java" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClientListen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClientListen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Request/GroupJoined.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Request/GroupJoined.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Request/JoinGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Request/JoinGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Controller/MainScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Controller/MainScreenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/META-INF/Client.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/META-INF/Client.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Client.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Main/ChatterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Chat/Main/ChatterClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Main/ChatterClientListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Chat/Main/ChatterClientListen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Request/GroupJoined.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Chat/Request/GroupJoined.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Request/JoinGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Chat/Request/JoinGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Request/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Chat/Request/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/MainScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/FXML/sc1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/FXML/sc2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/FXML/sc3.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/FXML/scene1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/FXML/scene2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/FXML/scene2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/FXML/scene3_1.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/FXML/scene3_2.fxml" beforeDir="false" />
->>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+      <change beforePath="$PROJECT_DIR$/../Client/src/intercode/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/intercode/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/intercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/intercode/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-||||||| merged common ancestors
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Constant/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Constant/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/META-INF/Server.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compliers/CPlusPlusCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compliers/JavaCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compliers/PythonCompiler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Constant/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Group.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/HandleClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Owner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/CreateGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/GroupJoined.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/JoinGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/WhoIAm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/intercode/HandleClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/intercode/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Server/intercode/RequestServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intercode/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intercode/HandleClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/intercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intercode/Main.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/HandleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/HandleClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Main/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Main/Owner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/GroupJoined.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Request/GroupJoined.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/Chat/Request/JoinGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/Chat/Request/JoinGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Main/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Main/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Request/GroupJoined.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/GroupJoined.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Request/JoinGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/JoinGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chat/Request/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Request/Message.java" afterDir="false" />
->>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,54 +78,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/intercode/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/intercode/HandleClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="460">
+              <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Compliers/PythonCompiler.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Compliers/CPlusPlusCompiler.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Compliers/JavaCompiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat/Main/Owner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat/Main/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -141,55 +95,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/intercode/RequestServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="595">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5423">
-              <caret line="364" column="10" selection-start-line="364" selection-start-column="10" selection-end-line="364" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat/Main/HandleClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat/Main/Group.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-||||||| merged common ancestors
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/intercode/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,60 +114,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat/Main/Owner.java">
+        <entry file="file://$PROJECT_DIR$/src/DataClasses/ClientDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat/Main/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/intercode/RequestServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="986">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
+                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#1489#1490#0" expanded="true" />
+                <element signature="e#1516#1517#0" expanded="true" />
+                <element signature="e#1553#1554#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/src/RequestClasses/SignUpRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="345" column="10" selection-start-line="345" selection-start-column="10" selection-end-line="345" selection-end-column="10" />
+            <state relative-caret-position="468">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="e#1914#1915#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat/Main/HandleClient.java">
+        <entry file="file://$PROJECT_DIR$/src/RequestClasses/CheckUserID.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utilities/SqlQueryExecuter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-311">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+            <state relative-caret-position="-47">
+              <caret line="34" column="89" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Chat/Main/Group.java">
+        <entry file="file://$PROJECT_DIR$/src/RequestClasses/LoginVerification.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="408">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+              <folding>
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/RequestClasses/InterviewHistory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -259,8 +192,6 @@
       </file>
     </leaf>
   </component>
-=======
->>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -271,22 +202,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/src/HandleClient.java" />
-        <option value="$PROJECT_DIR$/src/intercode/RequestServer.java" />
-        <option value="$PROJECT_DIR$/src/intercode/HandleClient.java" />
-        <option value="$PROJECT_DIR$/src/Chat/Main/Group.java" />
-        <option value="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" />
-        <option value="$PROJECT_DIR$/src/Chat/Main/Server.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/Compliers/CPlusPlusCompiler.java" />
+        <option value="$PROJECT_DIR$/src/intercode/ProcessRequest.java" />
         <option value="$PROJECT_DIR$/src/intercode/Main.java" />
+        <option value="$PROJECT_DIR$/src/intercode/RequestServer.java" />
+        <option value="$PROJECT_DIR$/src/RequestClasses/UploadResume.java" />
+        <option value="$PROJECT_DIR$/src/Utilities/SaveFile.java" />
+        <option value="$PROJECT_DIR$/src/RequestClasses/InterviewHistory.java" />
+        <option value="$PROJECT_DIR$/src/RequestClasses/RequestClasses/Response.java" />
+        <option value="$PROJECT_DIR$/src/RequestClasses/Response.java" />
+        <option value="$PROJECT_DIR$/src/RequestClasses/LoginVerification.java" />
+        <option value="$PROJECT_DIR$/src/DataClasses/ClientDetails.java" />
+        <option value="$PROJECT_DIR$/src/RequestClasses/SignUpRequest.java" />
+        <option value="$PROJECT_DIR$/src/intercode/HandleClient.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
+    <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -296,6 +233,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,19 +245,6 @@
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chat" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
@@ -331,64 +256,13 @@
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="intercode" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
-||||||| merged common ancestors
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/src/HandleClient.java" />
-        <option value="$PROJECT_DIR$/src/intercode/RequestServer.java" />
-        <option value="$PROJECT_DIR$/src/intercode/HandleClient.java" />
-        <option value="$PROJECT_DIR$/src/Chat/Main/Group.java" />
-        <option value="$PROJECT_DIR$/src/Chat/Main/HandleClient.java" />
-        <option value="$PROJECT_DIR$/src/Chat/Main/Server.java" />
-        <option value="$PROJECT_DIR$/src/intercode/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Constant" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chat" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="DataClasses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
@@ -396,35 +270,47 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="intercode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ProfilePictures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RequestClasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
-=======
-  <component name="ProjectId" id="1QuwxOAMyFzejn29zyhBiOOudIC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
->>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
-||||||| merged common ancestors
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
-=======
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Client" />
->>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/RequestClasses" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\DELL\Desktop\InterCode\Server\src" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RequestClasses" />
+      <recent name="DataClasses" />
+      <recent name="Constant" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="intercode" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\InterCode\Server\src\RequestClasses" />
+      <recent name="C:\Users\DELL\Desktop\InterCode\Server\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -440,43 +326,32 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intercode.Main" />
       <module name="Server" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6772201-22a1-43dd-aeac-833c0e20bb77" name="Default Changelist" comment="" />
-      <created>1568493232258</created>
+      <changelist id="064bb0ee-33e1-4692-a36a-848f804bbc6c" name="Default Changelist" comment="" />
+      <created>1568661040207</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568493232258</updated>
-      <workItem from="1568634040971" duration="2024000" />
-      <workItem from="1568641189886" duration="4294000" />
+      <updated>1568661040207</updated>
     </task>
     <servers />
   </component>
-<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14496644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,16 +359,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -505,28 +380,27 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/intercode/HandleClient.java">
+    <entry file="file://$PROJECT_DIR$/Compliers/PythonCompiler.java" />
+    <entry file="file://$PROJECT_DIR$/Compliers/JavaCompiler.java" />
+    <entry file="file://$PROJECT_DIR$/Compliers/CPlusPlusCompiler.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="-4017">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Compliers/CPlusPlusCompiler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intercode/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intercode/ProcessRequest.java" />
     <entry file="file://$PROJECT_DIR$/src/Chat/Main/Owner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -536,178 +410,232 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chat/Main/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="374">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intercode/RequestServer.java">
+    <entry file="file://$PROJECT_DIR$/src/Resume/manas_uni.PNG" />
+    <entry file="file://$PROJECT_DIR$/src/Utilities/SaveFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="340">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5423">
-          <caret line="364" column="10" selection-start-line="364" selection-start-column="10" selection-end-line="364" selection-end-column="10" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Constant/Request.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chat/Main/HandleClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat/Main/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Compliers/PythonCompiler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Compliers/CPlusPlusCompiler.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Compliers/JavaCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/RequestClasses/UploadResume.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/RequestClasses/InterviewHistory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/RequestClasses/LoginVerification.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/RequestClasses/Response.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/UploadResume.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-||||||| merged common ancestors
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/intercode/HandleClient.java">
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="34">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/InterviewHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/LoginVerification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="345" column="10" selection-start-line="345" selection-start-column="10" selection-end-line="345" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat/Main/Group.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="408">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat/Main/HandleClient.java">
+    <entry file="file://$PROJECT_DIR$/src/Utilities/SqlQueryExecuter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-311">
-          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="-47">
+          <caret line="34" column="89" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/CheckUserID.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataClasses/ClientDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1553#1554#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RequestClasses/SignUpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="e#1914#1915#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/intercode/RequestServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat/Main/Owner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat/Main/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="595">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/intercode/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-=======
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <entry file="file://$PROJECT_DIR$/src/ProfilePictures/ikljhl,.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/intercode/HandleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
->>>>>>> c4ed511607ad1be3cd8ea00e9266aff814ee8733
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mysql-connector-java-8.0.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

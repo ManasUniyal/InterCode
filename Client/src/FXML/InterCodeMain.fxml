@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="1500.0">
+         <children>
+            <AnchorPane id="UpperHalfAnchorPane" layoutX="-14.0" layoutY="-11.0" prefHeight="50.0" prefWidth="1500.0" style="-fx-background-color: A9A9A9;">
+               <children>
+                  <Label id="intercodeLabel" fx:id="intercodeLabel" alignment="CENTER" layoutX="622.0" layoutY="6.0" prefHeight="38.0" prefWidth="192.0" style="-fx-background-color: FF0000;" styleClass="interCodeLabel" text="INTERCODE" />
+               </children>
+            </AnchorPane>
+            <AnchorPane id="lowerHalfAnchorPane" layoutX="-14.0" layoutY="39.0" prefHeight="50.0" prefWidth="1500.0" style="-fx-background-color: #545457;">
+               <children>
+                  <Label id="languageLabel" fx:id="languageLabel" alignment="CENTER" layoutY="5.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #2762F6;" text="Language" />
+                  <Button id="saveButton" fx:id="saveButton" layoutX="1386.0" layoutY="5.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #FB6815;" text="Save" />
+                  <ListView layoutX="115.0" layoutY="10.0" prefHeight="31.0" prefWidth="237.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane id="chatAnchorPane" fx:id="chatAnchorPane" layoutX="1494.0" prefHeight="100.0" prefWidth="426.0" style="-fx-background-color: #7D55FF;">
+         <children>
+            <Button id="chatButton" fx:id="chatButton" layoutX="142.0" layoutY="17.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="142.0" style="-fx-background-color: #38FC5B;" text="Chatting">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="100.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="229.0" prefWidth="1500.0">
+         <children>
+            <Label id="questionLabel" fx:id="questionLabel" contentDisplay="CENTER" prefHeight="20.0" prefWidth="1500.0" style="-fx-background-color: #b5d57b;" text="Question:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField id="questionTextField" fx:id="questionTextField" layoutY="30.0" prefHeight="200.0" prefWidth="1500.0" style="-fx-background-color: #bbbbbb;" />
+         </children>
+      </AnchorPane>
+      <TextField layoutY="329.0" prefHeight="552.0" prefWidth="1500.0" style="-fx-background-color: #302F2F;" />
+      <AnchorPane id="outputAnchorPane" fx:id="outputAnchorPane" layoutY="930.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="1500.0">
+         <children>
+            <Label id="outputLabel" fx:id="outputLabel" prefHeight="20.0" prefWidth="1500.0" style="-fx-background-color: #9db240;" text="Output" />
+            <TextField id="outputTextField" fx:id="outputTextField" layoutY="21.0" prefHeight="129.0" prefWidth="1500.0" style="-fx-background-color: f5e3ec;" />
+         </children>
+      </AnchorPane>
+      <AnchorPane id="lowerDownloadAnchorPane" layoutY="881.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="1500.0" style="-fx-background-color: #F55E5C;">
+         <children>
+            <Button id="downloadCode" fx:id="downloadCode" layoutX="13.0" layoutY="3.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="177.0" style="-fx-background-color: #0359DA;" text="Download Code" />
+            <Button id="uploadButton" layoutX="210.0" layoutY="3.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="158.0" style="-fx-background-color: #F3143C;" text="Upload" />
+            <TextField id="uploadFileLoaction" fx:id="uploadFileLoaction" layoutX="407.0" layoutY="10.0" prefHeight="31.0" prefWidth="267.0" />
+            <Button id="runButtuon" fx:id="runButtuon" layoutX="1246.0" layoutY="5.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #1BC207;" text="Run" />
+            <Button id="runButtuon" fx:id="runButtuon1" layoutX="1377.0" layoutY="6.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #1A51F5;" text="Compile" />
+         </children>
+      </AnchorPane>
+      <ListView id="listViewField" fx:id="listViewField" layoutX="1500.0" layoutY="100.0" prefHeight="911.0" prefWidth="419.0" style="-fx-background-color: #EAF7F2;" />
+      <AnchorPane id="messageAnchorPane" fx:id="messageAnchorPane" layoutX="1500.0" layoutY="1007.0" prefHeight="74.0" prefWidth="419.0" style="-fx-background-color: #D2FDEE;">
+         <children>
+            <TextField id="messageTextField" fx:id="messageTextField" layoutY="12.0" prefHeight="50.0" prefWidth="347.0" text="type your message" />
+            <Button id="sendMessage" fx:id="sendMessage" layoutX="347.0" layoutY="17.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="71.0" style="-fx-background-color: #1A51F5;" text="Send" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="929.0" prefWidth="700.0" style="-fx-background-color: #5FFA7F;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUp">
+   <children>
+      <Label id="username" fx:id="username" alignment="CENTER" layoutX="73.0" layoutY="446.0" prefHeight="57.0" prefWidth="176.0" style="-fx-background-color: #C70039;" text="User ID :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label id="password" fx:id="password" alignment="CENTER" layoutX="73.0" layoutY="531.0" prefHeight="57.0" prefWidth="176.0" style="-fx-background-color: #C70039;" text="PassWord :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField id="usernameField" fx:id="userNameField" layoutX="318.0" layoutY="376.0" prefHeight="45.0" prefWidth="350.0" promptText="username" />
+      <TextField id="usernameField" fx:id="userIDField" layoutX="317.0" layoutY="453.0" prefHeight="45.0" prefWidth="350.0" promptText="userID" />
+      <PasswordField id="passwordField" fx:id="passwordField" layoutX="315.0" layoutY="537.0" prefHeight="45.0" prefWidth="350.0" promptText="Password" />
+      <Button id="loginButton" fx:id="loginButton" alignment="CENTER" layoutX="228.0" layoutY="794.0" mnemonicParsing="false" onAction="#registerButton" prefHeight="65.0" prefWidth="236.0" style="-fx-background-color: #9B0973;" text="Register">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label id="email" fx:id="email" alignment="CENTER" layoutX="73.0" layoutY="617.0" prefHeight="57.0" prefWidth="176.0" style="-fx-background-color: #C70039;" text="E-Mail :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField id="emailField" fx:id="emailField" layoutX="317.0" layoutY="624.0" prefHeight="45.0" prefWidth="350.0" promptText="email" />
+      <Label id="email" fx:id="email1" alignment="CENTER" layoutX="73.0" layoutY="709.0" prefHeight="57.0" prefWidth="176.0" style="-fx-background-color: #C70039;" text="Phone:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField id="emailField" fx:id="phoneField" layoutX="318.0" layoutY="714.0" prefHeight="45.0" prefWidth="350.0" promptText="Phone Number" />
+      <Label fx:id="interviewerLabel" alignment="CENTER" layoutY="71.0" onMouseClicked="#selectMode" prefHeight="65.0" prefWidth="350.0" style="-fx-background-color: #2459F9;" text="Interviewer">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label fx:id="candidateLabel" alignment="CENTER" layoutX="350.0" layoutY="71.0" onMouseClicked="#selectMode" prefHeight="65.0" prefWidth="350.0" style="-fx-background-color: #2459F9;" text="Candidate" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New Bold" size="20.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label id="LoginLabel" fx:id="LoginLabel" alignment="CENTER" layoutX="194.0" layoutY="-1.0" prefHeight="45.0" prefWidth="313.0" style="-fx-background-color: #FA925F;" text="Sign Up">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="247.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="249.0" layoutY="311.0" mnemonicParsing="false" onAction="#changePictureButton" prefHeight="31.0" prefWidth="200.0" text="Change picture" />
+      <Label id="username" fx:id="username1" alignment="CENTER" layoutX="74.0" layoutY="369.0" prefHeight="57.0" prefWidth="176.0" style="-fx-background-color: #C70039;" text="User Name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

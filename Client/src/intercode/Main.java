@@ -2,6 +2,7 @@ package intercode;
 
 import Chat.Main.ChatterClient;
 import Controller.MainScreenController;
+import DataClasses.ClientDetails;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,6 +18,7 @@ public class Main extends Application {
     public static ChatterClient CHATTER;
     public static String NAME = "SAM";
     public static String GROUP;
+    public static ClientDetails USER;
 
     public static void main(String[] args) {
         launch(args);
@@ -24,12 +26,13 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+
         GAMER = new Client("localhost", 6000,"Welcome");
+        USER = new ClientDetails();
         PRIMARYSTAGE = primaryStage;
-        Parent root = FXMLLoader.load(getClass().getResource("../FXML/MainScreen.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../FXML/SignUp.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();
-
     }
 }
