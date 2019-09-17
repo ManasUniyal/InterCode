@@ -143,4 +143,18 @@ public class Editor {
 
 	}
 
+	public void decreaseSize(ActionEvent actionEvent){
+		int sizeOfFont = textArea.getFont().getSize();
+//		String fontFamily = textArea.getFont().getFamily();
+		sizeOfFont -= 1;
+		if (sizeOfFont<2){
+			sizeOfFont = 2;
+		}
+		String fontFamily = textArea.getFont().getFamily();
+		int fontStyle = textArea.getFont().getStyle();
+		Font font1 = new Font(fontFamily, fontStyle, sizeOfFont);
+		textArea.setFont(font1);
+
+	}
+
 }
