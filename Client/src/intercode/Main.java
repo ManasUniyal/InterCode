@@ -65,8 +65,9 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws IOException {
 
+        GAMER = new Client("localhost",6000,"Welcome");
         PRIMARYSTAGE = primaryStage;
-        Parent parent = FXMLLoader.load(getClass().getResource("../Editor/Editor.FXML"));
+        Parent parent = FXMLLoader.load(getClass().getResource("../FXML/InterCodeMain.fxml"));
         primaryStage.setScene(new Scene(parent, HEIGHT, WIDTH));
         primaryStage.show();
 

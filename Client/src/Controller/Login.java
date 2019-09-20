@@ -34,13 +34,13 @@ public class Login {
     public void selectMode(MouseEvent mouseEvent) {
         Label lbl = (Label)mouseEvent.getSource();
         if(lbl == interviewerLabel){
-            interviewerLabel.setTextFill(Color.BLACK);
-            candidateLabel.setTextFill(Color.WHITE);
+            interviewerLabel.setTextFill(Color.WHITE);
+            candidateLabel.setTextFill(Color.BLACK);
             mode = 1;
         }
         else{
-            interviewerLabel.setTextFill(Color.WHITE);
-            candidateLabel.setTextFill(Color.BLACK);
+            interviewerLabel.setTextFill(Color.BLACK);
+            candidateLabel.setTextFill(Color.WHITE);
             mode = 2;
         }
     }
@@ -78,11 +78,12 @@ public class Login {
             LoginVerification loginVerification = (LoginVerification) Main.GAMER.receive_message();
             if (loginVerification.isLoginSuccessful() == true) {
                 Main.USER = loginVerification.getClientDetails();
-                if (mode == 1){
-                    new FXMLInitiator("../FXML/Interviewer.fxml").start(Main.PRIMARYSTAGE);
-                } else {
-                    new FXMLInitiator("../FXML/Candidate.fxml").start(Main.PRIMARYSTAGE);
-                }
+//                if (mode == 1){
+//                    new FXMLInitiator("../FXML/Interviewer.fxml").start(Main.PRIMARYSTAGE);
+//                } else {
+//                    new FXMLInitiator("../FXML/Candidate.fxml").start(Main.PRIMARYSTAGE);
+//                }
+                new FXMLInitiator("../FXML/Candidate.fxml").start(Main.PRIMARYSTAGE);
             } else {
                 new AlertBox("Error",loginVerification.getMessage());
             }

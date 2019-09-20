@@ -29,7 +29,7 @@ import java.nio.file.Files;
 public class Candidate {
 
     @FXML
-    Label userNamelabel;
+    Label userNameLabel;
 
     @FXML
     Label emailAddressLabel;
@@ -58,7 +58,7 @@ public class Candidate {
     public void initialize(){
 
         //Setting userName
-        userNamelabel.setText(Main.USER.getUserName());
+        userNameLabel.setText(Main.USER.getUserName());
         //Setting emailAddress
         emailAddressLabel.setText(Main.USER.getUserID());
 
@@ -82,7 +82,7 @@ public class Candidate {
                 new AlertBox("Error", "Unable to download picture");
             } else {
                 new File("src/ProfilePicture").mkdir();
-                File destinationFile = new File("src/ProfilePictures/" + getProfilePicture.getUserID() + "." + getProfilePicture.getExtension());
+                File destinationFile = new File("src/ProfilePicture/" + getProfilePicture.getUserID() + "." + getProfilePicture.getExtension());
                 Files.write(destinationFile.toPath(), getProfilePicture.getContent());
                 imageView.setImage(new Image(destinationFile.toURI().toURL().toString()));
             }
@@ -112,12 +112,16 @@ public class Candidate {
 
     public void editDetailsButton(ActionEvent event) {
         Stage stage = new Stage();
-        stage.initModality(Modality.APPLICATION_MODAL);
+//        stage.initModality(Modality.APPLICATION_MODAL);
         stage.setTitle("Edit details");
+        System.out.println("Edit button pressed");
         try {
             Parent parent = FXMLLoader.load(getClass().getResource("../FXML/EditDetails.fxml"));
             stage.setScene(new Scene(parent));
             stage.showAndWait();
+            userNameLabel.setText(Main.USER.getUserName());
+            emailAddressLabel.setText(Main.USER.getEmailAddress());
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -148,7 +152,7 @@ public class Candidate {
     }
 
     public void changePasswordButton(ActionEvent event){
-        Stage stage = null;
+        Stage stage = new Stage();
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.setTitle("Change password");
         try {
@@ -172,4 +176,5 @@ public class Candidate {
             e.printStackTrace();
         }
     }
+
 }

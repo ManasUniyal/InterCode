@@ -114,7 +114,7 @@ public class HandleClient implements Runnable {
 
     private Response _signUpRequest() {
         SignUpRequest signUpRequest = (SignUpRequest) message;
-        Main.SQLQUERYEXECUTER.update("INSERT INTO user VALUES ('"+signUpRequest.getUserName()+"','"+signUpRequest.getUserID()+"','"+signUpRequest.getPhoneNumber()+"','"+signUpRequest.getEmailAddress()+"','"+signUpRequest.getExtension()+"','"+signUpRequest.getPassword()+"',"+signUpRequest.getMode()+");");
+        Main.SQLQUERYEXECUTER.update("INSERT INTO user VALUES ('"+signUpRequest.getUserName()+"','"+signUpRequest.getUserID()+"','"+signUpRequest.getPhoneNumber()+"','"+signUpRequest.getEmailAddress()+"','"+signUpRequest.getExtension()+"','"+signUpRequest.getPassword()+"',"+signUpRequest.getMode()+", NULL);")  ;
         String destinationDir = "src/ProfilePictures";
         new File(destinationDir).mkdir();
         File destinationFile = new File(destinationDir+"/"+signUpRequest.getUserID()+"."+signUpRequest.getExtension());
@@ -157,12 +157,13 @@ public class HandleClient implements Runnable {
         String userID = getProfilePicture.getUserID();
         String extension = null;
         try {
-            ResultSet rs = Main.SQLQUERYEXECUTER.select("SELECT Extension from user WHERE UserID = '" + userID + "';");
+            ResultSet rs = Main.SQLQUERYEXECUTER.select("SELECT ImageExtension from user WHERE UserID = '" + userID + "';");
             while (rs.next()) {
-                extension = rs.getString("Extension");
+                extension = rs.getString("ImageExtension");
             }
             File file = new File("src/ProfilePictures/"+userID+"."+extension);
             byte[] content = Files.readAllBytes(file.toPath());
+            System.out.println("Sent");
             return new GetProfilePicture(userID, content, extension);
         } catch (SQLException e) {
             e.printStackTrace();
@@ -189,10 +190,10 @@ public class HandleClient implements Runnable {
         String userID = getResume.getUserID();
         String extension = null;
         byte[] content = null;
-        ResultSet rs = Main.SQLQUERYEXECUTER.select("SELECT Extension FROM user WHERE UserID = '"+userID+"';");
+        ResultSet rs = Main.SQLQUERYEXECUTER.select("SELECT ResumeExtension FROM user WHERE UserID = '"+userID+"';");
         try{
             while(rs.next()){
-                extension = rs.getString("Extension");
+                extension = rs.getString("ResumeExtension");
             }
             File destinationFile = new File("src/Resume/"+userID+"."+extension);
             content = Files.readAllBytes(destinationFile.toPath());
@@ -206,7 +207,7 @@ public class HandleClient implements Runnable {
 
     private Response _updateDetails(){
         UpdateDetails updateDetails = (UpdateDetails) message;
-        Main.SQLQUERYEXECUTER.update("UPDATE user SET UserName = '"+updateDetails.getUserName()+"', EmailAddress = '"+updateDetails.getEmailAddress()+"', PhoneNo = '"+updateDetails.getPhoneNumber()+"', ResumeExtension = '"+updateDetails.getResumeExtension()+"' WHERE UserID = '"+updateDetails.getUserID()+"');");
+        Main.SQLQUERYEXECUTER.update("UPDATE user SET UserName = '"+updateDetails.getUserName()+"', EmailAddress = '"+updateDetails.getEmailAddress()+"', PhoneNo = '"+updateDetails.getPhoneNumber()+"', ResumeExtension = '"+updateDetails.getResumeExtension()+"' WHERE UserID = '"+updateDetails.getUserID()+"';");
         new File("src/Resume").mkdir();
         File resume = new File("src/Resume/"+updateDetails.getUserID()+"."+updateDetails.getResumeExtension());
         try {

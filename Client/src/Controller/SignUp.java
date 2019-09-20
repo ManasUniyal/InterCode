@@ -4,6 +4,7 @@ import DataClasses.ClientDetails;
 import RequestClasses.CheckUserID;
 import RequestClasses.Response;
 import RequestClasses.SignUpRequest;
+import Utilities.FXMLInitiator;
 import Windows.AlertBox;
 import intercode.Main;
 import javafx.event.ActionEvent;
@@ -114,11 +115,13 @@ public class SignUp {
             Response response = (Response) Main.GAMER.receive_message();
             if(response.getStatus() == 0){
                 Main.USER = new ClientDetails(userIDField.getText(), userNameField.getText(), emailField.getText(), phoneField.getText(), imageExtension, null, mode);
+                System.out.println(Main.USER.getUserID());
 //                if(mode == 1) {
 //                    new FXMLInitiator("../FXML/Interviewer.fxml").start(Main.PRIMARYSTAGE);
 //                } else {
 //                    new FXMLInitiator("../FXML/Candidate.fxml").start(Main.PRIMARYSTAGE);
 //                }
+            new FXMLInitiator("../FXML/Candidate.fxml").start(Main.PRIMARYSTAGE);
             }
         } catch (IOException e) {
             e.printStackTrace();

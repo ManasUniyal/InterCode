@@ -93,7 +93,7 @@ public class AddQuestion {
         }
         try {
             byte[] content = Files.readAllBytes(file.toPath());
-            Main.GAMER.send_message(new UploadQuestion(type, ChatterClient.group, content));
+            Main.GAMER.send_message(new UploadQuestion(type, ChatterClient.GROUP, content));
             Response response = (Response) Main.GAMER.receive_message();
         } catch (IOException e) {
             e.printStackTrace();

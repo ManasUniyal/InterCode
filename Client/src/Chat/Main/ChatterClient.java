@@ -10,7 +10,7 @@ import java.net.Socket;
 public class ChatterClient {
 
 	private String name;
-	public static String group;
+	public static String GROUP;
 
 	private Socket socket;
 	private ObjectOutputStream objectOutputStream;
@@ -57,7 +57,7 @@ public class ChatterClient {
 		System.out.println("die");
 		if (res.getStatus() == 0){
 			startRead();
-			this.group = name;
+			this.GROUP = name;
 			return true;
 		}else{
 			return false;
@@ -71,7 +71,7 @@ public class ChatterClient {
 		System.out.println("hiiiiiiiiiii");
 		if (res.getStatus() == 0){
 			startRead();
-			this.group = name;
+			this.GROUP = name;
 			return true;
 		}else{
 			return false;

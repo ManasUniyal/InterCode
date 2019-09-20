@@ -41,18 +41,20 @@ public class EditDetails {
         emailAddressField.setText(Main.USER.getEmailAddress());
         phoneNumberField.setText(Main.USER.getPhoneNumber());
 
-        try{
+        try {
             Main.GAMER.send_message(new GetResume(Main.USER.getUserID()));
             GetResume getResume = (GetResume) Main.GAMER.receive_message();
             new File("src/Resume").mkdir();
-            resume = new File("src/Resume/"+getResume.getUserID()+"."+getResume.getExtension());
+            resume = new File("src/Resume/" + getResume.getUserID() + "." + getResume.getExtension());
             resumeExtension = getResume.getExtension();
-            Files.write(resume.toPath(), getResume.getContent());
-            viewResumeLink.setText(Main.USER.getUserName()+"'s Resume");
-            return;
-            } catch (IOException e) {
+            if (getResume.getContent() != null) {
+                Files.write(resume.toPath(), getResume.getContent());
+                viewResumeLink.setText(Main.USER.getUserName() + "'s Resume");
+                return;
+                }
+            }catch(IOException e){
                 e.printStackTrace();
-            } catch (ClassNotFoundException e) {
+            } catch(ClassNotFoundException e){
                 e.printStackTrace();
             }
             viewResumeLink.setText("");
@@ -71,13 +73,14 @@ public class EditDetails {
     }
 
     public void ViewResumePressed(ActionEvent event) {
+        System.out.println("View pressed");
         try {
-            File file = new File("src/Resume/" + Main.USER.getUserID() + "." + Main.USER.getResumeExtension());
-            if (file.exists()) {
+//            File file = new File("src/Resume/" + Main.USER.getUserID() + "." + Main.USER.getResumeExtension());
+            if (resume.exists()) {
                 if (Desktop.isDesktopSupported()) {
-                    Desktop.getDesktop().open(file);
+                    Desktop.getDesktop().open(resume);
                 } else {
-                    new AlertBox("Error", "File not supported by system");
+                    new AlertBox("Error", "File not supported by system").start();
                 }
             }
         } catch (IOException e) {
@@ -109,6 +112,7 @@ public class EditDetails {
             return;
         }
         try {
+
             byte[] content = Files.readAllBytes(resume.toPath());
             Main.GAMER.send_message(new UpdateDetails(Main.USER.getUserID(), userNameField.getText(), emailAddressField.getText(), phoneNumberField.getText(), content, resumeExtension));
             Response response = (Response) Main.GAMER.receive_message();
@@ -120,7 +124,7 @@ public class EditDetails {
             if(response.getStatus() == 1){
                 new AlertBox("Error","").start();
             } else {
-                new AlertBox("Success", "Details saved successfully");
+                new AlertBox("Success", "Details saved successfully").start();
             }
 
         } catch (IOException e) {

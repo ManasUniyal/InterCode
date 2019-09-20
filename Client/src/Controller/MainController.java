@@ -1,5 +1,6 @@
 package Controller;
 
+import Chat.Main.ChatterClient;
 import Editor.*;
 import Windows.AlertBox;
 import intercode.Main;
@@ -24,6 +25,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
@@ -55,10 +57,10 @@ public class MainController {
 
     public void initialize(){
 
-        if(Main.USER.getMode() == 2) {    //Candidate
-            uploadQuestion.setVisible(false);
-            downloadCode.setVisible(false);
-        }
+//        if(Main.USER.getMode() == 2) {    //Candidate
+//            uploadQuestion.setVisible(false);
+//            downloadCode.setVisible(false);
+//        }
 
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("C");
@@ -102,7 +104,6 @@ public class MainController {
         textArea.setWrapStyleWord(true);
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         swingContainer.setContent(scrollPane);
-
     }
 
     public void addQuestionPressed(ActionEvent event) {
@@ -276,4 +277,21 @@ public class MainController {
 
     }
 
+    public void compileButtonPressed(){
+        if(selectLanguage.getValue() == null){
+            new AlertBox("Error", "Select a language");
+            return;
+        }
+        String code = textArea.getText();
+        String directoryPath = "src/"+ ChatterClient.GROUP;
+        new File(directoryPath).mkdir();
+        File file = new File(directoryPath+"/input."+selectLanguage.getValue());
+        try {
+            FileWriter fileWriter = new FileWriter(file);
+            byte[] content = Files.readAllBytes(file.toPath());
+            //Write query for compiling, dta to be sent ot server
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
