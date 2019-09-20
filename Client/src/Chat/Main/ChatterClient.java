@@ -10,7 +10,7 @@ import java.net.Socket;
 public class ChatterClient {
 
 	private String name;
-	private String group;
+	public static String group;
 
 	private Socket socket;
 	private ObjectOutputStream objectOutputStream;

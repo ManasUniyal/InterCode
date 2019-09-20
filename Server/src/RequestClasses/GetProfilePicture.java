@@ -2,13 +2,17 @@ package RequestClasses;
 
 import java.io.Serializable;
 
-public class UploadResume implements Serializable {
+public class GetProfilePicture implements Serializable {
 
     private String userID;
     private byte[] content;
     private String extension;
 
-    public UploadResume(String userID, byte[] content, String extension) {
+    public GetProfilePicture(String userID) {
+        this.userID = userID;
+    }
+
+    public GetProfilePicture(String userID, byte[] content, String extension) {
         this.userID = userID;
         this.content = content;
         this.extension = extension;

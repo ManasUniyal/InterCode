@@ -1,5 +1,6 @@
 package Controller;
 
+import DataClasses.ClientDetails;
 import RequestClasses.LoginVerification;
 import RequestClasses.Response;
 import Utilities.FXMLInitiator;
@@ -74,12 +75,16 @@ public class Login {
         String password = passwordField.getText();
         try {
             Main.GAMER.send_message(new LoginVerification(loginCredential, password, mode));
-            Response response = (Response) Main.GAMER.receive_message();
-            if (response.getStatus() == 0) {
-                if (mode == 1)
+            LoginVerification loginVerification = (LoginVerification) Main.GAMER.receive_message();
+            if (loginVerification.isLoginSuccessful() == true) {
+                Main.USER = loginVerification.getClientDetails();
+                if (mode == 1){
                     new FXMLInitiator("../FXML/Interviewer.fxml").start(Main.PRIMARYSTAGE);
-            } else {
+                } else {
                     new FXMLInitiator("../FXML/Candidate.fxml").start(Main.PRIMARYSTAGE);
+                }
+            } else {
+                new AlertBox("Error",loginVerification.getMessage());
             }
         }
         catch (IOException e) {

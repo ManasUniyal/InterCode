@@ -10,6 +10,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.Window;
+
+import java.io.IOException;
 
 public class Main extends Application {
 
@@ -26,9 +29,8 @@ public class Main extends Application {
         launch(args);
     }
 
-    @Override
+    /*@Override
     public void start(Stage primaryStage) throws Exception {
-<<<<<<< HEAD
 
         GAMER = new Client("localhost", 6000,"Welcome");
         USER = new ClientDetails();
@@ -57,6 +59,16 @@ public class Main extends Application {
 //        for (String X: trie.wordsByPrefix("ab")) {
 //            System.out.println(X);
 //        }
+
+    }*/
+
+    @Override
+    public void start(Stage primaryStage) throws IOException {
+
+        PRIMARYSTAGE = primaryStage;
+        Parent parent = FXMLLoader.load(getClass().getResource("../Editor/Editor.FXML"));
+        primaryStage.setScene(new Scene(parent, HEIGHT, WIDTH));
+        primaryStage.show();
 
     }
 }

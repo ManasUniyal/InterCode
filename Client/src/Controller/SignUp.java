@@ -49,7 +49,7 @@ public class SignUp {
 
     private int mode = 0;
     private Image image;
-    private String extension;
+    private String imageExtension;
     private File file;
 
     public void initialize(){
@@ -57,7 +57,7 @@ public class SignUp {
             file = new File("src/Icons/newUserIcon.png");
             image = new Image(file.toURI().toURL().toString());
             imageView.setImage(image);
-            extension = "png";
+            imageExtension = "png";
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
@@ -110,10 +110,10 @@ public class SignUp {
             return;
         try {
             byte[] pictureContent = Files.readAllBytes(file.toPath());
-            Main.GAMER.send_message(new SignUpRequest(userNameField.getText(), userIDField.getText(), passwordField.getText(), emailField.getText(), phoneField.getText(), pictureContent, extension, mode));
+            Main.GAMER.send_message(new SignUpRequest(userNameField.getText(), userIDField.getText(), passwordField.getText(), emailField.getText(), phoneField.getText(), pictureContent, imageExtension, mode));
             Response response = (Response) Main.GAMER.receive_message();
             if(response.getStatus() == 0){
-                Main.USER = new ClientDetails(userIDField.getText(), userNameField.getText(), emailField.getText(), phoneField.getText(), extension, mode);
+                Main.USER = new ClientDetails(userIDField.getText(), userNameField.getText(), emailField.getText(), phoneField.getText(), imageExtension, null, mode);
 //                if(mode == 1) {
 //                    new FXMLInitiator("../FXML/Interviewer.fxml").start(Main.PRIMARYSTAGE);
 //                } else {
@@ -152,7 +152,7 @@ public class SignUp {
             try {
                 file = file_temp;
                 image = new Image(file.toURI().toURL().toString());
-                extension = file.getName().substring(file.getName().lastIndexOf(".") + 1);
+                imageExtension = file.getName().substring(file.getName().lastIndexOf(".") + 1);
                 imageView.setImage(image);
             } catch (Exception e) {
                 e.printStackTrace();

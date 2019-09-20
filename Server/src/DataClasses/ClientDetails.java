@@ -8,18 +8,20 @@ public class ClientDetails implements Serializable {
     private String userName;
     private String emailAddress;
     private String phoneNumber;
-    private String extension;
+    private String imageExtension;
+    private String resumeExtension;
     private int mode;
 
     public ClientDetails(){
     }
 
-    public ClientDetails(String userID, String userName, String emailAddress, String phoneNumber, String extension, int mode) {
+    public ClientDetails(String userID, String userName, String emailAddress, String phoneNumber, String imageExtension, String resumeExtension, int mode) {
         this.userID = userID;
         this.userName = userName;
         this.emailAddress = emailAddress;
         this.phoneNumber = phoneNumber;
-        this.extension = extension;
+        this.imageExtension = imageExtension;
+        this.resumeExtension = resumeExtension;
         this.mode = mode;
     }
 
@@ -54,15 +56,7 @@ public class ClientDetails implements Serializable {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
-    public String getExtension() {
-        return extension;
-    }
-
-    public void setExtension(String extension) {
-        this.extension = extension;
-    }
-
+    
     public int getMode() {
         return mode;
     }
@@ -70,5 +64,23 @@ public class ClientDetails implements Serializable {
     public void setMode(int mode) {
         this.mode = mode;
     }
+
+    public String getImageExtension() {
+        return imageExtension;
+    }
+
+    public void setImageExtension(String imageExtension) {
+        this.imageExtension = imageExtension;
+    }
+
+    public String getResumeExtension() {
+        return resumeExtension;
+    }
+
+    public void setResumeExtension(String resumeExtension) {
+        this.resumeExtension = resumeExtension;
+    }
+
+
 
 }

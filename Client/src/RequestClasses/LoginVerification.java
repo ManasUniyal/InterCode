@@ -1,5 +1,7 @@
 package RequestClasses;
 
+import DataClasses.ClientDetails;
+
 import java.io.Serializable;
 
 public class LoginVerification implements Serializable {
@@ -7,6 +9,20 @@ public class LoginVerification implements Serializable {
     private String loginCredential;
     private String password;
     private int mode;
+    private boolean isLoginSuccessful;
+    private ClientDetails clientDetails;
+    private String message;
+
+    public LoginVerification(boolean isLoginSuccessful, String message){
+        this.isLoginSuccessful = isLoginSuccessful;
+        this.message = message;
+    }
+
+    public LoginVerification(boolean isLoginSuccessful, ClientDetails clientDetails, String message){
+        this.isLoginSuccessful = isLoginSuccessful;
+        this.clientDetails = clientDetails;
+        this.message = message;
+    }
 
     public LoginVerification(String loginCredential, String password, int mode) {
         this.loginCredential = loginCredential;
@@ -36,6 +52,30 @@ public class LoginVerification implements Serializable {
 
     public void setMode(int mode) {
         this.mode = mode;
+    }
+
+    public ClientDetails getClientDetails() {
+        return clientDetails;
+    }
+
+    public void setClientDetails(ClientDetails clientDetails) {
+        this.clientDetails = clientDetails;
+    }
+
+    public boolean isLoginSuccessful() {
+        return isLoginSuccessful;
+    }
+
+    public void setLoginSuccessful(boolean loginSuccessful) {
+        isLoginSuccessful = loginSuccessful;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
     }
 
 }

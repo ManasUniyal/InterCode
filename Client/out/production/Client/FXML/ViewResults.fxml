@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="565.0" prefWidth="899.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ViewResults">
+   <children>
+      <Label alignment="CENTER" layoutX="2.0" layoutY="31.0" prefHeight="46.0" prefWidth="899.0" text="RESULTS">
+         <font>
+            <Font name="System Bold" size="38.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableView" layoutX="11.0" layoutY="130.0" prefHeight="364.0" prefWidth="877.0">
+         <columns>
+            <TableColumn fx:id="candidateName" prefWidth="266.0" text="Candidate Name" />
+            <TableColumn fx:id="duration" minWidth="0.0" prefWidth="182.0" text="Duration (in minutes)" />
+            <TableColumn fx:id="rating" minWidth="0.0" prefWidth="131.0" text="Rating" />
+            <TableColumn fx:id="reviews" minWidth="0.0" prefWidth="301.0" text="Reviews" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

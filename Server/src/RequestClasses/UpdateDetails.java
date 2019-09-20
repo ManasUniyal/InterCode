@@ -1,36 +1,23 @@
-package DataClasses;
+package RequestClasses;
 
 import java.io.Serializable;
 
-public class ClientDetails implements Serializable {
+public class UpdateDetails implements Serializable {
 
     private String userID;
     private String userName;
     private String emailAddress;
     private String phoneNumber;
-    private String imageExtension;
+    private byte[] content;
     private String resumeExtension;
-    private int mode;
 
-    public ClientDetails(){
-    }
-
-    public ClientDetails(String userID, String userName, String emailAddress, String phoneNumber, String imageExtension, String resumeExtension, int mode) {
+    public UpdateDetails(String userID, String userName, String emailAddress, String phoneNumber, byte[] content, String resumeExtension) {
         this.userID = userID;
         this.userName = userName;
         this.emailAddress = emailAddress;
         this.phoneNumber = phoneNumber;
-        this.imageExtension = imageExtension;
+        this.content = content;
         this.resumeExtension = resumeExtension;
-        this.mode = mode;
-    }
-
-    public String getUserID() {
-        return userID;
-    }
-
-    public void setUserID(String userID) {
-        this.userID = userID;
     }
 
     public String getUserName() {
@@ -56,21 +43,13 @@ public class ClientDetails implements Serializable {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-    
-    public int getMode() {
-        return mode;
+
+    public byte[] getContent() {
+        return content;
     }
 
-    public void setMode(int mode) {
-        this.mode = mode;
-    }
-
-    public String getImageExtension() {
-        return imageExtension;
-    }
-
-    public void setImageExtension(String imageExtension) {
-        this.imageExtension = imageExtension;
+    public void setContent(byte[] content) {
+        this.content = content;
     }
 
     public String getResumeExtension() {
@@ -81,6 +60,13 @@ public class ClientDetails implements Serializable {
         this.resumeExtension = resumeExtension;
     }
 
+    public String getUserID() {
+        return userID;
+    }
+
+    public void setUserID(String userID) {
+        this.userID = userID;
+    }
 
 
 }
