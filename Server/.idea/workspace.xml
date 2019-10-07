@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db213033-33ec-429e-b164-44f0fd4f7ce8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Chat/Main/ChatterClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Controller/Candidate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Controller/Candidate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Controller/EditDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Controller/EditDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Controller/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Controller/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/Controller/SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/Controller/SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/FXML/InterCodeMain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/FXML/InterCodeMain.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/out/production/Client/intercode/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Chat/Main/ChatterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Chat/Main/ChatterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/AddQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/AddQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/Candidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/EditDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/EditDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/Controller/SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Controller/SignUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/intercode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/intercode/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/DataClasses/ClientDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/DataClasses/ClientDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/RequestClasses/InterviewHistory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/RequestClasses/LoginVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/RequestClasses/LoginVerification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/RequestClasses/UploadResume.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Server/intercode/HandleClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Server/intercode/HandleClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProfilePictures/ikljhl,.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intercode/HandleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intercode/HandleClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,13 +26,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/intercode/HandleClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="207" column="38" selection-start-line="207" selection-start-column="38" selection-end-line="207" selection-end-column="38" />
+            <state relative-caret-position="287">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProfilePictures/shreyasdob.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -124,6 +107,11 @@
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -163,6 +151,14 @@
             <path>
               <item name="Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -176,6 +172,12 @@
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ProfilePictures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RequestClasses" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,7 +224,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -238,7 +240,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31099194" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,15 +311,18 @@
     <entry file="file://$PROJECT_DIR$/src/ProfilePictures/djdskhsjkdfhjskdfh.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/intercode/HandleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProfilePictures/sddf.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/intercode/HandleClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="207" column="38" selection-start-line="207" selection-start-column="38" selection-end-line="207" selection-end-column="38" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/ProfilePictures/shreyasdob.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
